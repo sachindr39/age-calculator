@@ -1,38 +1,254 @@
-.App {
-  text-align: center;
+body {
+    background-color: black;
+    font-family: system-ui;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.age.calcutator {
+    width: 350px;
+    height: 750px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Todaydate {
+    font-size: 7px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Todaydate h1 {
+    font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+.todays h3 {
+    font-size: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todays h1 {
+    font-size: 15px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.todays {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+/* age next-birthday css */
+
+.block {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 20px;
+}
+
+.birth {
+    margin: 15px;
+    color: #6c6e73;
+}
+
+.blockchild {
+    display: flex;
+    border-bottom: 1px solid #dddddd;
+    justify-content: space-between;
+    padding-top: 6px;
+    height: 152px;
+}
+
+.span h5 {
+    margin: 0px;
+    color: #fd5800;
+    font-size: 57px;
+    font-weight: lighter;
+    height: 69px;
+}
+
+.span p {
+    margin: 0px;
+    padding-top: 32px;
+    padding-left: 8px;
+}
+
+.span {
+    display: flex;
+}
+
+.content h2 {
+    font-size: 35px;
+    margin: 0px;
+    font-weight: 100;
+}
+
+.content {
+    margin: 0px;
+    border-right: 1px solid #dddddd;
+    padding-bottom: 2px;
+    padding-right: 47px;
+}
+
+.content h6 {
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 21px;
+    color: #89888e;
+    font-weight: 600;
+
+}
+
+.nextbirthday {
+    padding-right: 20px;
+}
+
+.nextbirthday h3 {
+    color: #e97531;
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.nextbirthday h5 {
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.nextbirthday h6 {
+    margin: 0px;
+    padding-top: 17px;
+    text-align: center;
+    color: #89888e;
+    font-weight: 600;
+}
+
+.total h4 {
+    margin: 0px;
+    display: inline-flex;
+    text-align: center;
+    padding-right: 15px;
+}
+
+.total h3 {
+    margin: 0px;
+    text-align: center;
+    display: inline-flex;
+    padding-right: 15px;
+}
+
+/* summeary */
+
+.sub {
+    display: flex;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.leftdiv h4 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.leftdiv h3 {
+    font-size: 15px;
+}
+
+.sub p {
+    color: #acaeb4;
+    margin: 0;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.summary h2 {
+    color: #fd5a02;
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 4px;
+    font-weight: 500;
+}
+
+.leftdiv {
+    padding-left: 26px;
+}
+
+.middlediv {
+    padding-left: 52px;
+}
+
+.rightdiv {
+    padding-left: 47px;
+}
+
+.sub h3 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sub h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.total span {
+    font-size: 7px;
+    text-align: center;
+    margin: 0;
+    display: block;
+}
+
+.nextbirthday svg {
+    width: 23px;
+    height: 23px;
+    padding: 7px;
+    border: 1px solid orange;
+    fill: white;
+    background-color: #ef5d0c;
+    border-radius: 21px;
+    margin-top: 9px;
+    margin-left: 22px;
+}
+
+.datepicker {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.datepicker span {
+    width: 102px;
+    padding-top: 7px;
+}
+
+.MuiFormControl-root input {
+    color: #e97531;
+    text-align: end;
+    padding: 0;
+    font-weight: 600;
+}
+
+.MuiFormControl-root #\:r5\: {
+    color: #89888e;
+    text-align: end;
+    padding: 0;
+    font-weight: 600;
+}
+
+.todays span {
+    color: #89888e;
+    text-align: end;
+    padding: 0;
+    font-weight: 600;
+}
+
+.MuiFormControl-root fieldset {
+    border: none;
 }
