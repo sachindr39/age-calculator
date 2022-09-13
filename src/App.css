@@ -140,31 +140,6 @@ body {
 }
 
 /* summeary */
-
-.sub {
-    display: flex;
-    padding-bottom: 10px;
-    text-align: center;
-}
-
-.leftdiv h4 {
-    font-size: 15px;
-    text-align: center;
-}
-
-.leftdiv h3 {
-    font-size: 15px;
-}
-
-.sub p {
-    color: #acaeb4;
-    margin: 0;
-    text-align: center;
-    font-size: 10px;
-    padding-top: 10px;
-    padding-right: 15px;
-}
-
 .summary h2 {
     color: #fd5a02;
     font-size: 15px;
@@ -173,28 +148,6 @@ body {
     padding-top: 25px;
     padding-bottom: 18px;
     font-weight: 500;
-}
-
-.leftdiv {
-    padding-left: 26px;
-}
-
-.middlediv {
-    padding-left: 52px;
-}
-
-.rightdiv {
-    padding-left: 47px;
-}
-
-.sub h3 {
-    font-size: 12px;
-    font-weight: 500;
-}
-
-.sub h4 {
-    font-size: 20px;
-    font-weight: 400;
 }
 
 .total span {
