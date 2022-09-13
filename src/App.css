@@ -34,7 +34,7 @@ body {
     justify-content: space-between;
     text-align: center;
     font-size: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
 }
 
 /* age next-birthday css */
@@ -171,7 +171,7 @@ body {
     text-align: center;
     margin: 0;
     padding-top: 25px;
-    padding-bottom: 4px;
+    padding-bottom: 18px;
     font-weight: 500;
 }
 
@@ -220,7 +220,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .datepicker span {
@@ -251,4 +251,27 @@ body {
 
 .MuiFormControl-root fieldset {
     border: none;
+}
+
+/**
+ * Summary 
+ */
+ .summary-list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.summary {
+    color: #acaeb4;
+    font-size: 12px;
+    text-align: center;
+}
+
+.summary-list:first-child .summary-count {
+    font-size: 25px;
+}
+
+.summary-footer {
+    font-size: 10px;
 }
