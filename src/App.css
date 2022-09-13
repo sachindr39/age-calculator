@@ -188,14 +188,7 @@ body {
     font-weight: 600;
 }
 
-.MuiFormControl-root #\:r5\: {
-    color: #89888e;
-    text-align: end;
-    padding: 0;
-    font-weight: 600;
-}
-
-.todays span {
+.todays span input {
     color: #89888e;
     text-align: end;
     padding: 0;
